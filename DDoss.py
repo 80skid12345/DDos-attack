@@ -3,7 +3,7 @@ import socket, random, time
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 ip = input("Enter Target Ip:")
-port = int(input("Enter Taret Port: "))
+port = int(input("Enter Target Port: "))
 
 sleep = float(input("Sleep: "))
 
